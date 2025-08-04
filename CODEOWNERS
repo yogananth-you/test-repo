@@ -1,0 +1,22 @@
+# CODEOWNERS file for this component
+# This file defines who is responsible for code in this repository
+
+# Primary owner - has final say on all changes
+* @yogananth-you
+
+# Secondary owner - can review and approve changes
+* @yogananth
+
+# Documentation
+*.md @yogananth-you
+
+# Configuration files
+*.json @yogananth-you
+*.yaml @yogananth-you
+*.yml @yogananth-you
+
+# Tests
+**/test/** @yogananth-you
+**/tests/** @yogananth-you
+*.test.js @yogananth-you
+*.spec.js @yogananth-you
